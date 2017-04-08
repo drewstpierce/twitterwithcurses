@@ -169,10 +169,12 @@ input, textarea, select, .uneditable-input {
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
+
 }
 
 input {
   height: auto !important;
+
 }
 
 #error_explanation {
@@ -187,5 +189,6 @@ input {
   @extend .has-error;
   .form-control {
     color: $state-danger-text;
+
   }
 }

@@ -8,12 +8,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "twitterWithCurses"
   end
 
-  test "should get login" do
-    get login_path
-    assert_response :success
-    assert_select "title", "Login | twitterWithCurses"
-  end
-
   test "should get about" do
     get about_path
     assert_response :success
